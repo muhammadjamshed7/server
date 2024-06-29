@@ -1,0 +1,40 @@
+[
+    {
+      "keywords": ["hi", "hello"],
+      "response": "Thanks for reaching out to us. How can we help you?"
+    },
+    {
+      "keywords": ["tours", "tour"],
+      "response": "Wo b kr lena"
+    },
+    {
+      "keywords": ["thank you", "thanks"],
+      "response": "You are welcome!"
+    },
+    {
+      "keywords": ["burj khalifa", "ask burj khalifa"],
+      "response": {
+        "type": "images_with_prices",
+        "images": [
+          { "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0f/ef/d9/0c.jpg", "price": "$100" },
+          { "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0f/ef/d9/0c.jpg", "price": "$150" },
+          { "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0f/ef/d9/0c.jpg", "price": "$200" }
+        ]
+      }
+    },
+    {
+      "keywords": ["hotel"],
+      "response": {
+        "type": "hotel_options",
+        "options": [
+          { "name": "Luxury Hotel", "type": "luxury", "image": "https://i.ytimg.com/vi/cn7AFhVEI5o/maxresdefault.jpg", "price": "$500" },
+          { "name": "Standard Hotel", "type": "standard", "image": "https://i.ytimg.com/vi/cn7AFhVEI5o/maxresdefault.jpg", "price": "$300" }
+        ]
+      }
+    },
+    {
+      "keywords": ["call"],
+      "response": "Please click on the phone icon to initiate a direct call to hotel management."
+    }
+  ]
+  
